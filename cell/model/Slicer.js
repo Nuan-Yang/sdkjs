@@ -2760,7 +2760,7 @@
 	};
 	CT_tabularSlicerCache.prototype.syncWithCache = function (cacheField, pivotField, cacheFieldWithData) {
 		var pivotItems = pivotField.getItems();
-		var count = Math.min(cacheField.getSharedSize(), pivotItems.length);
+		var count = Math.min(cacheField.getGroupOrSharedSize(), pivotItems.length);
 		if (cacheFieldWithData) {
 			count = Math.min(count, cacheFieldWithData.length);
 		}

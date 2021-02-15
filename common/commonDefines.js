@@ -215,6 +215,7 @@
 			LockedCellPivot				: -312,
 			PivotLabledColumns			: -313,
 			PivotOverlap				: -314,
+			PivotGroup					: -315,
 
 			ForceSaveButton: -331,
 			ForceSaveTimeout: -332,
@@ -2300,6 +2301,7 @@
 	prot['LockedCellPivot']                  = prot.LockedCellPivot;
 	prot['PivotLabledColumns']               = prot.PivotLabledColumns;
 	prot['PivotOverlap']                     = prot.PivotOverlap;
+	prot['PivotGroup']                       = prot.PivotGroup;
 	prot['ForceSaveButton']                  = prot.ForceSaveButton;
 	prot['ForceSaveTimeout']                 = prot.ForceSaveTimeout;
 	prot['CannotChangeFormulaArray']         = prot.CannotChangeFormulaArray;
